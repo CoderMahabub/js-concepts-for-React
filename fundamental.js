@@ -1,11 +1,11 @@
 /* TODO:42-1 Six JavaScript Fundamentals that you need to know TODO: */
 
-//TODO:01. How to declare a variable using let and const
+// TODO:01. How to declare a variable using let and const
 /* const fatherName = "Arnold"; // As Father Name Doesn't Change
 let season = "Rainy"; // As Season can be changed to summer
 season = "Winter"; */
 
-//TODO:02.1 Conditions
+// TODO:02.1 Conditions
 // 6 Basic Condition: >,<,===, !==, <=, >=
 /* if (fatherName === "Arnold") {
   console.log("Yes, Arnold is Armold Father");
@@ -15,14 +15,14 @@ season = "Winter"; */
   console.log("Something Else");
 } */
 
-//TODO:02.2 Multiple Condition: &&, ||
+// TODO:02.2 Multiple Condition: &&, ||
 /* if ((fatherName === "Arnold" && season === "Rainy") || season === "winter") {
   console.log("It is winter", season);
 } else {
   console.log("Something Else");
 } */
 
-//TODO:03. Array , Array Index, Array Length, Array Push, Set by Index value,
+// TODO:03. Array , Array Index, Array Length, Array Push, Set by Index value,
 const numbers = [89, 35, 98, 12];
 /* 
 console.log(numbers.length); //length
@@ -35,7 +35,7 @@ numbers.pop(); // pop()
 // console.log(numbers);
 console.log(numbers.includes(35)); //includes() */
 
-//TODO:04. loop: for || while
+// TODO:04. loop: for || while
 /* for (let i = 0; i < numbers.length; i++) {
   const number = numbers[i];
   console.log(number);
@@ -48,7 +48,7 @@ while (i < numbers.length) {
   console.log(number);
 } */
 
-//TODO: 5. Simple Function
+// TODO: 5. Simple Function
 /* function multiply(number, number1) {
   const result = number * number1;
   return result;
@@ -56,7 +56,7 @@ while (i < numbers.length) {
 const output = multiply(5, 10);
 console.log(output); */
 
-//TODO:06. Object and Access object in all 3 ways
+// TODO:06. Object and Access object in all 3 ways
 /* const student = {
   name: "Sakib Al Hasan",
   age: 32,
