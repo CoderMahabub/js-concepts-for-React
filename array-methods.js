@@ -1,5 +1,7 @@
-// TODO:04. সিম্পল একটা জাভাস্ক্রিপ্ট অবজেক্ট এর কোন একটা প্রোপার্টিকে ভেরিয়েবল হিসেবে ডিক্লেয়ার করার জন্য destructuring ইউজ করো। array এর destructuring করবে আর সেটা করার জন্য তুমি এরে এর সেকেন্ড পজিশন এর উপাদান কে destructuring করে 'balance' নামক একটা ভেরিয়েবল এ রাখবে।
-/* const products = [
+// TODO: আরো পাঁচটা জিনিস জানতে হবে। ১.১ অনেকগুলা সংখ্যার একটা array হবে। তারপর তোমার কাজ হবে array এর উপরে map ইউজ করে। প্রত্যেকটা ২ দিয়ে গুণ করে গুণফল আরেকটা array হিসেবে রাখবে। পুরা কাজটা এক লাইনে হবে।
+// ১.২. জাভাস্ক্রিপ্ট এ array এর map, forEach, filter, find কোনটা দিয়ে কি হয়। সেটার একটা সামারি লিখে ফেলো।
+
+const products = [
   { name: "laptop", price: 3200, brand: "lenovo", color: "silver" },
   { name: "phone", price: 7000, brand: "iphone", color: "golden" },
   { name: "watch", price: 3000, brand: "caio", color: "yellow" },
@@ -21,4 +23,4 @@ const specificName = products.filter((product) => product.name.includes("n"));
 
 //Find():
 const special = products.find((product) => product.name.includes("n"));
-console.log(special); */
+console.log(special);
