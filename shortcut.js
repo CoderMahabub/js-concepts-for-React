@@ -43,15 +43,15 @@ const inputNumber = +input;
 
 TODO:
 let isActive =true;
-const showUser = () =>console.log('Display User');
-const hideUser = () =>console.log('Hide User');
+const showUsers = () =>console.log('Display User');
+const hideUsers = () =>console.log('Hide User');
 // isActive ? showUser() : hideUser();
 
 // use && if the left side is true then right side will be executed
-isActive && showUser();
+isActive && showUsers();
 
 // use || if the left side is false then right side will be executed
-isActive|| hideUser();
+isActive|| hideUsers();
 
-//
-isActive=!isActive;
+//toggle boolean
+isActive =! isActive;
