@@ -23,7 +23,7 @@ season = "Winter"; */
 } */
 
 // TODO:03. Array , Array Index, Array Length, Array Push, Set by Index value,
-const numbers = [89, 35, 98, 12];
+const numbers = [ 89, 35, 98, 12 ];
 /* 
 console.log(numbers.length); //length
 console.log(numbers.indexOf(98)); //indexOf()

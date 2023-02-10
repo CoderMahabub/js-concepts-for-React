@@ -8,7 +8,7 @@ const student = {
   firstCentury: {
     centuryAgainst: "NZ",
     totalBalls: 100,
-    partshipWith: {
+    partnershipWith: {
       first: "Mashrafee",
       second: "Musfiqur Rahim",
     },
@@ -38,8 +38,8 @@ console.log(currentNumbers); */
 console.log(fiftyFive()); */
 
 // TODO:3.2 এক প্যারামিটার ওয়ালা একটা অ্যারো ফাংশন ডিক্লেয়ার করবে। এই ফাংশনের কাজ হবে যে প্যারামিটার নিবে সেটাকে ১২ দিয়ে গুণ করে গুণফল রিটার্ন করবে।
-/* const addSixyFive = (num) => num + 65;
-console.log(addSixyFive(10)); */
+/* const addSixtyFive = (num) => num + 65;
+console.log(addSixtyFive(10)); */
 
 // TODO:3.2 isEVen
 /* const isEven = (x) => x % 2 == 0;
